@@ -17,13 +17,18 @@ header {
   border-bottom: 1px solid black;
 }
 
-h1 { /* contains my name */
+/* Home "button" styling */
+#home {
   margin: 0;
   display: inline;
   
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 2em;
+}
+
+#home:hover {
+  cursor: pointer;
 }
 
 /* nav bar and formatting */
@@ -49,7 +54,7 @@ nav {
 }
 
 /* Specific link styling */
-#profile {
+#blog {
    margin-right: 13px;
 }
 
@@ -67,14 +72,12 @@ nav {
 /* content div and actual content*/
 #contentContainer {
   margin-top: 50px;
-  border-top: 10px solid rgb(0, 0, 0);
-  /*text-align: center;*/
+  border-top: 10px solid #0080FF;
 }
 
 .content {
   float: none;
-  /*margin: 0;*/
-  /*font-family: 'Abril Fatface', cursive;*/
+  
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 1em;
@@ -82,15 +85,4 @@ nav {
 
 a.content {
   text-decoration: underline;
-}
-
-/* CSS Rules for Blog */
-
-/* CSS Rules for Content */
-#send {
-  color: black;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 2em;
-  text-decoration: none;
 }
