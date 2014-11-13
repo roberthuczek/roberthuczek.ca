@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+  background-color: rgb(225, 227, 228);
+}
+
+#container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* Overall header with my name and nav bar */
+header {
+  margin-top: 100px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+h1 { /* contains my name */
+  margin: 0;
+  display: inline;
+  
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+/* nav bar and formatting */
+nav {
+  float: right;
+}
+
+.navLink {
+  margin-top: 0;
+  margin-bottom: 0;
+  float: left;
+  text-decoration: none;
+  
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  
+  color: black;
+}
+
+.navLink:hover {
+    cursor: pointer;
+}
+
+/* Specific link styling */
+#profile {
+   margin-right: 13px;
+}
+
+.middle {
+  margin-left: 13px;
+  margin-right: 13px;
+  
+  text-align: center;
+}
+
+#contact {
+  margin-left: 13px;
+}
+
+/* content div and actual content*/
+#contentContainer {
+  margin-top: 50px;
+  border-top: 10px solid rgb(0, 0, 0);
+  /*text-align: center;*/
+}
+
+.content {
+  float: none;
+  /*margin: 0;*/
+  /*font-family: 'Abril Fatface', cursive;*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+a.content {
+  text-decoration: underline;
+}
+
+/* CSS Rules for Blog */
+
+/* CSS Rules for Content */
+#send {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  text-decoration: none;
+}
