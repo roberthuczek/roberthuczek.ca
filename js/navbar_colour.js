@@ -103,18 +103,18 @@ function replaceContent(requestedPage) {
             switch (requestedPage) {
                 case 0: // Home page
                     $("#contentContainer").append("<p class=\"content\">Welcome.</p>");
-                    
+     
                     $(".content").animate({opacity: 1}, {duration: 100, queue: false});
                     
                     currentPage = 0;
-                    
+
                     break;
                     
                 case 1: // Blog
                     $("#contentContainer").append("<p class=\"content\">Blog.</p>");
-                    
+
                     $(".content").animate({opacity: 1}, {duration: 100, queue: false});
-                    
+
                     currentPage = 1;
                     
                     break;
@@ -125,7 +125,7 @@ function replaceContent(requestedPage) {
                     $(".content").animate({opacity: 1}, {duration: 100, queue: false});
                     
                     currentPage = 2;
-                    
+
                     break;
                 
                 case 3: // Contact
@@ -134,7 +134,7 @@ function replaceContent(requestedPage) {
                     $(".content").animate({opacity: 1}, {duration: 100, queue: false});
                     
                     currentPage = 3;
-                    
+
                     break;    
             } // end switch
         }); // end callback
